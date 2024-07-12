@@ -1,20 +1,19 @@
 
-export default App; 
-import Navbar from './Homepage';
-import VideoSection from './VideoSection';
+// import Navbar from './Homepage';
+// import VideoSection from './VideoSection';
 import './App.css';
-import Podcast from "./Podcast";
-i
+// import Podcast from "./Podcast";
+import Portfolio from './Portfolio';
 
 
 
 function App() {
   return (
     <div>
-    <Navbar/> 
+    {/* <Navbar/> 
     <VideoSection/>
-    <Podcast/>
-      <Portfolio/>
+    <Podcast/> */}
+    <Portfolio/>
     </div>
   );
 }
