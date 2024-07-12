@@ -1,10 +1,12 @@
 
-export default App; 
+
 import Navbar from './Homepage';
 import VideoSection from './VideoSection';
 import './App.css';
 import Podcast from "./Podcast";
-i
+import WritingSection from "./writingSection"
+import Project from './Project';
+import Portfolio from './Portfolio'
 
 
 
