@@ -1,16 +1,23 @@
-// import logo from './logo.svg';
+
+export default App; 
+import Navbar from './Homepage';
+import VideoSection from './VideoSection';
 import './App.css';
-import { useState } from 'react';
-import WritingSection from './writingSection';
-import Project from './Project';
+import Podcast from "./Podcast";
+i
+
+
 
 function App() {
   return (
-    <>
-   <WritingSection/>
-   <Project/>
-   </>
+    <div>
+    <Navbar/> 
+    <VideoSection/>
+    <Podcast/>
+    <WritingSection/>
+    <Project/>
+     <Portfolio/>
+    </div>
   );
-};
-
+}
 export default App;
