@@ -1,0 +1,250 @@
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+#about{
+    display: flex;
+    gap: 70px;
+    margin-left: 200px;
+    color: white;
+   
+}
+
+#kame{
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 10%;
+   
+}
+#kamesection{
+   gap: 200px;
+   font-size:larger;
+   margin-top: 20px;
+  
+}
+#personal-statement{
+    width: 100%;
+
+
+}
+#education{
+    font-size: larger;
+    color: white;
+  
+}
+#lowerprofile{
+    display: flex;
+   margin-left: 200px;
+   gap: 100px;
+   
+}
+#course{
+    width: 40%;
+    font-size: large;
+    color: white;
+
+}
+#skill{
+    width: 40%;
+    font-size: large;
+    color: white;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+
+
+.container{
+    background-color: #161E31;
+}
+#kameprofile{
+    border: solid 5px #F7B276;
+    border-radius: 40px;
+}
+
+#cynthiaprofile{
+    border: solid 5px #F7B276;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+
+#cynthia{
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 10%;
+   
+}
+
+#susanprofile{
+    border: solid 5px #F7B276;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+#susan{
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 10%;
+   
+}
+
+#terryprofile{
+    border: solid 5px #F7B276;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+
+#terry{
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 10%;
+   
+}
+
+#kantaiprofile{
+    border: solid 5px #F7B276;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+#kantai{
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 25%;
+    object-fit: cover;
+   
+}
+
+
+
+@media(min-width:280px) and (max-width:500px){
+    #kameprofile{
+        border: solid 5px #F7B276;
+        border-radius: 40px;
+    }
+h1{
+    text-align: center;
+    color: white;
+}
+
+#about{
+   flex-wrap: wrap;
+    margin-left: 40px;
+    color: white;
+   
+}
+
+#kame{
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 10%;
+    margin-left: 50px;
+   
+   
+}
+#kamesection{
+  
+   font-size:medium;
+
+  
+}
+#personal-statement{
+    /* width: 50%; */
+
+
+}
+#education{
+    font-size: larger;
+    color: white;
+  
+}
+#lowerprofile{
+    flex-wrap: wrap;
+    margin: 0;
+
+    
+  
+   
+
+   
+}
+#course{
+  
+    font-size: small;
+    color: white;
+    margin-left: 30%;
+
+}
+#skill{
+    
+    font-size: small;
+    color: white;
+    margin-left: 30%;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+
+
+.container{
+    background-color: #161E31;
+    width: 100%;
+  
+}
+
+
+#cynthiaprofile{
+    border: solid 5px #F7B276;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+
+#cynthia{
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 10%;
+    margin-left: 50px;
+   
+}
+
+#susanprofile{
+    border: solid 5px #F7B276;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+#susan{
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 10%;
+    margin-left: 50px;
+}
+
+#terryprofile{
+    border: solid 5px #F7B276;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+
+#terry{
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 10%;
+    margin-left: 50px;
+   
+}
+
+#kantaiprofile{
+    border: solid 5px #F7B276;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+#kantai{
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 10%;
+    margin-left: 50px;
+}
+
+}

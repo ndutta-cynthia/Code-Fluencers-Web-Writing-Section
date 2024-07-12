@@ -1,3 +1,5 @@
+
+export default App; 
 import Navbar from './Homepage';
 import VideoSection from './VideoSection';
 import './App.css';
@@ -9,6 +11,7 @@ function App() {
     <div>
     <Navbar/> 
     <VideoSection/>
+      <Portfolio/>
     </div>
   );
 }
