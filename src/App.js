@@ -14,7 +14,9 @@ function App() {
     <Navbar/> 
     <VideoSection/>
     <Podcast/>
-      <Portfolio/>
+    <WritingSection/>
+    <Project/>
+     <Portfolio/>
     </div>
   );
 }
