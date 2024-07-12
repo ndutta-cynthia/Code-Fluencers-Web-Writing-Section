@@ -1,19 +1,24 @@
 
-// import Navbar from './Homepage';
-// import VideoSection from './VideoSection';
+import Navbar from './Homepage';
+import VideoSection from './VideoSection';
 import './App.css';
-// import Podcast from "./Podcast";
-import Portfolio from './Portfolio';
+import Podcast from "./Podcast";
+import Portfolio from "./Portfolio"
+
 
 
 
 function App() {
   return (
     <div>
-    {/* <Navbar/> 
+    <Navbar/> 
     <VideoSection/>
-    <Podcast/> */}
+    <Podcast/> 
     <Portfolio/>
+    <Podcast/>
+    <WritingSection/>
+    <Project/>
+     <Portfolio/>
     </div>
   );
 }
